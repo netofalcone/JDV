@@ -1,0 +1,17 @@
+@keyframes degrade{
+0% {background-color:gray;}
+25% {background-color:blue;}
+50% {background-color:orange;}
+70% {background-color:green;}
+100% {background-color:red;}
+
+
+}
+
+
+.espaco{
+
+		animation-name:degrade;
+		animation-duration:8s;
+		animation-iteration-count:infinite;
+}
